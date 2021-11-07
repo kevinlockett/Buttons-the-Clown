@@ -1,0 +1,62 @@
+{
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Buttons"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    }
+  ],
+  "assignments": [
+    {
+      "reservationId": 5,
+      "clownId": 1,
+      "dateAssigned": "11/7/2021",
+      "id": 1
+    }
+  ],
+  "reservations": [
+    {
+      "eventType": "Birthday Party",
+      "parentName": "Peggy Lockett",
+      "childName": "Lizzy",
+      "numberAttending": 15,
+      "address": "1220 42 Ave",
+      "date": "2021-12-03",
+      "lengthInHours": 2,
+      "id": 2
+    },
+    {
+      "eventType": "Grand Opening",
+      "parentName": "Bob Johnson",
+      "childName": "Target's new southside store",
+      "numberAttending": 250,
+      "address": "100 Pixie Dust Hwy",
+      "date": "2021-12-11",
+      "lengthInHours": 2,
+      "id": 3
+    },
+    {
+      "eventType": "Children's Christmas Party",
+      "parentName": "Col Johnson",
+      "childName": "394th Ops Grp",
+      "numberAttending": 35,
+      "address": "100 Space Way",
+      "date": "2021-12-18",
+      "lengthInHours": 1,
+      "id": 4
+    },
+    {
+      "eventType": "Birthday Party",
+      "parentName": "Eva Steen",
+      "childName": "Kevin",
+      "numberAttending": 12,
+      "address": "1345 Nixon Ln",
+      "date": "2021-11-29",
+      "lengthInHours": 2,
+      "id": 5
+    }
+  ]
+}
