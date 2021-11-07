@@ -1,0 +1,131 @@
+/* GENERAL STYLING
+--------------------------------------------------------------*/
+
+.header {
+    border: .5rem solid var(--clr-accent-yellow);
+	outline: .5rem solid var(--clr-accent-green);
+    margin: var(--spacer) auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+.reservation-form,
+.scheduled-gigs {
+	margin-bottom: var(--spacer);
+}
+
+.field {	
+	display: flex;
+	flex-direction: column;
+	margin: var(--spacer) 0;
+}
+
+.field--number,
+.field--length,
+.field--date {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 40%;
+	margin: 1.5rem 0;
+}
+
+.label--number,
+.label--length,
+.label--date {
+	margin-right: var(--spacer);
+}
+
+.input--number,
+.input--length {
+	max-width: 5rem;
+	text-align: center;
+}
+
+
+.button--submit {
+	margin: var(--spacer) 0 2em 0;
+	color: var(--clr-neutral-100);
+	background: var(--clr-accent-green);
+}
+
+.button--cancel {
+	margin-left: var(--spacer);
+	background: var(--clr-accent-red);
+	color: var(--clr-neutral-100);
+	border-radius: 1.6rem;
+}
+
+li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: .25em .5em;
+	
+}
+
+.li-title {
+	display: flex;
+	justify-content: flex-start;
+	font-weight: 700;
+	color: var(--clr-neutral-100);
+	background: var(--clr-accent-orange-md);
+	align-items: center;
+	padding: .5em
+}
+
+.li--schedule:nth-child(odd) {
+	background: var(--clr-opaque-yellow);
+}
+
+.li--schedule:nth-child(even) {
+	background: var(--clr-opaque-orange-lt);
+}
+.li--left {
+	display: flex;
+	min-width: 55%;
+}
+
+.li--right {
+	display: flex;
+	justify-content: space-between;
+	min-width: 45%;
+}
+
+.img--balloon {
+	margin-right: .5rem;
+}
+
+.footer {
+	background: linear-gradient(-225deg, var(--clr-accent-orange-lt),var(--clr-accent-orange-md), var(--clr-accent-orange-dk));
+    border: .5rem solid var(--clr-accent-yellow);
+	outline: .5rem solid var(--clr-accent-green);
+	color: var(--clr-neutral-100);
+	font-weight: 500;
+	font-size: .75rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: var(--spacer);
+	margin: var(--spacer) 0;
+}
+
+.footer--left {
+	display: flex;
+	align-items: center;
+}
+
+.footer--right 	{
+	display: flex;
+	justify-content: flex-end;
+	align-content: center;
+}
+
+.img--footer {
+	margin-right: .5rem;
+}
