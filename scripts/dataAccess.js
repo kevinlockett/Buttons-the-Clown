@@ -1,4 +1,4 @@
-const API = "http://localhost:8088"
+const API = "https://buttons-api-mbz76.ondigitalocean.app"
 const mainContainer = document.querySelector("#container")
 
 const applicationState = {
